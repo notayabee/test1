@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сергій Сірко frontend-розробник</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="./images/favicon/favicon.ico" sizes="any">
+  <link rel="icon" href="./images/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./images/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="./images/favicon/site.webmanifest" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header" id="home" style="background-image: url('./images/bg-image.jpg')" ;>
+    <div class="container">
+      <nav class="menu">
+        <a class="logo" href="#home">
+          <img class="logo__image" src="./images/logo.svg" alt="Логотип">
+        </a>
+        <button class="menu__burger" type="button">
+          <span class="visually-hidden">кнопка меню</span>
+          <span class="menu__burger-line"></span>
+        </button>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">Про мене</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#skills">Навички</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#services">Послуги</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#stuff">Портфоліо</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#reviews">Відгуки</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__wrap">
+        <h1 class="header__title">
+          <span class="header__text">
+            Вітаю, я Сергій Сірко
+          </span>
+          frontend-розробник
+        </h1>
+      </div>
+      <a href="#stuff" class="header__link">
+        дивитися роботи
+      </a>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="title">
+          Про мене
+        </h2>
+        <div class="about__wrap">
+          <p>
+            Вітаю всіх на своєму сайті! Мене звати Сергій, я з Івано-Франківська. Займаюся фронтенд-розробкою трохи
+            більше року. До розробки займався нелюбимою справою, ходив на роботу, що не подобалася мені, не міг
+            зрозуміти, як
+            знайти працю за покликанням і робити те, що подобається, заробляючи собі на життя, допоки не знайшов один
+            цікавий курс.
+          </p>
+          <p>
+            З того часу багато чого дізнався, навчання давалося по-різному: десь легше, десь складніше. Щоденна робота
+            над навичками та зусилля, яких я докладав, вже за кілька місяців принесли плоди - вдалось взяти замовлення
+            на
+            фрілансі. З відгуками від задоволених клієнтів та прикладами моїх робіт можна ознайомитися нижче
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="title">
+          Навички
+        </h2>
+        <div class="skills__box">
+          <img class="skills__image" src="images/portrait.jpg" alt="Сергій Сірко">
+          <ul class="skills__bars">
+            <li class="skills__bar">
+              html
+              <div class="skills__full-bar">
+                <div class="skills__now-bar" style="width:85%"></div>
+              </div>
+            </li>
+            <li class="skills__bar">
+              css
+              <div class="skills__full-bar">
+                <div class="skills__now-bar" style="width:80%"></div>
+              </div>
+            </li>
+            <li class="skills__bar">
+              js
+              <div class="skills__full-bar">
+                <div class="skills__now-bar" style="width:65%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </section>
+    <section class="services section" id="services">
+      <div class="container">
+        <h2 class="title">
+          Послуги
+        </h2>
+        <ul class="services__items">
+          <li class="services__item services__item--layout">
+            <h3 class="services__name">
+              Верстка проєктів
+            </h3>
+            <p class="services__text">
+              Зроблю якісну верстку вашого проєкта за наявним макетом або прикладами робіт, які вам подобаються
+            </p>
+          </li>
+          <li class="services__item services__item--cms">
+            <h3 class="services__name">
+              Посадка на CMS
+            </h3>
+            <p class="services__text">
+              Інтегрую ваш проєкт з однією з популярних CMS
+            </p>
+          </li>
+          <li class="services__item services__item--support">
+            <h3 class="services__name">
+              Підтримка сайта
+            </h3>
+            <p class="services__text">
+              Гарантую підтримку вашого сайта протягом 30 днів післе здачі проєкта
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="stuff section" id="stuff">
+      <div class="container">
+        <h2 class="title">
+          Мої роботи
+        </h2>
+        <ul class="stuff__filter">
+          <li class="stuff__box">
+            <button class="stuff__btn" type="button" data-filter="all">
+              Усі роботи
+            </button>
+          </li>
+          <li class="stuff__box">
+            <button class="stuff__btn" type="button" data-filter=".category-landings">
+              Лендінги
+            </button>
+          </li>
+          <li class="stuff__box">
+            <button class="stuff__btn" type="button" data-filter=".category-collaborative">
+              Корпоративні
+            </button>
+          </li>
+          <li class="stuff__box">
+            <button class="stuff__btn" type="button" data-filter=".category-commerce">
+              E-commerce
+            </button>
+          </li>
+        </ul>
+        <ul class="stuff__content">
+          <li class="stuff__item mix category-landings">
+            <img class="stuff__image" src="images/stuff/img1.jpg" alt="пейзаж міста">
+          </li>
+          <li class="stuff__item mix category-commerce">
+            <img class="stuff__image" src="images/stuff/img2.jpg" alt="краєвид великого міста">
+          </li>
+          <li class="stuff__item mix category-landings">
+            <img class="stuff__image" src="images/stuff/img3.jpg" alt="човни на річці">
+          </li>
+          <li class="stuff__item mix category-commerce">
+            <img class="stuff__image" src="images/stuff/img4.jpg" alt="пляжний курорт">
+          </li>
+          <li class="stuff__item mix category-collaborative">
+            <img class="stuff__image" src="images/stuff/img5.jpg" alt="міст-залізниця">
+          </li>
+          <li class="stuff__item mix category-collaborative">
+            <img class="stuff__image" src="images/stuff/img6.jpg" alt="скеля на краю моря">
+          </li>
+        </ul>
+        <button class="button" type="button">
+          Завантажити ще
+        </button>
+      </div>
+    </section>
+    <section class="reviews section" id="reviews">
+      <div class="container">
+        <h2 class="title">
+          Відгуки клієнтів
+        </h2>
+        <div class="reviews__content">
+          <blockquote class="reviews__quote">
+            <img class="reviews__image" src="./images/reviews-photo.jpg" alt="Марк Цукерберг">
+            <cite class="reviews__name">
+              Марк Цукерберг
+            </cite>
+            Фантастично! Я цілком задоволений роботою цього спеціаліста. Швидко і якісно. Рекомендую!
+          </blockquote>
+          <a class="reviews__video-link" style="background-image: url(./images/video.jpg);" data-fancybox
+            href="https://www.youtube.com/watch?v=oZVFzDjBBq8">
+            <span class="visually-hidden">відео відгук</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="stats section">
+      <div class="container">
+        <ul class="stats__list">
+          <li class="stats__item stats__item--works">
+            <p class="stats__text">
+              Виконаних робіт
+            </p>
+            <span class="stats__number">
+              56
+            </span>
+          </li>
+          <li class="stats__item stats__item--customers">
+            <p class="stats__text">
+              Задоволених клієнтів
+            </p>
+            <span class="stats__number">
+              23
+            </span>
+          </li>
+          <li class="stats__item stats__item--coffe">
+            <p class="stats__text">
+              Випито горнят кави
+            </p>
+            <span class="stats__number">
+              477
+            </span>
+          </li>
+          <li class="stats__item stats__item--feedbacks">
+            <p class="stats__text">
+              Усього відгуків
+            </p>
+            <span class="stats__number">
+              48
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contacts section" id="contacts">
+      <div class="container">
+        <h2 class="title">
+          Контакти
+        </h2>
+        <div class="contacts__box">
+          <address class="contacts__address">
+            <p class="contacts__text">
+              Вийти зі мною на зв’язок можна, скориставшись контактною формою, або напряму за номером телефона, email, у
+              соцмережах:
+            </p>
+            <ul class="contacts__address-wrap">
+              <li class="contacts__item">
+                <a class="contacts__link" href="tel:+380501111111">
+                  +38 (050) 111 11 11
+                </a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="mailto:frontend-monster@email.com">
+                  frontend-monster@email.com
+                </a>
+              </li>
+            </ul>
+            <ul class="socials">
+              <li class="socials__item">
+                <a href="#" style="background-image: url('./images/instagram.svg')" class="socials__link">
+                  <span class="visually-hidden">посилання на інстаграм</span>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" style="background-image: url('./images/facebook.svg')" class="socials__link">
+                  <span class="visually-hidden">посилання на фейсбук</span>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" style="background-image: url('./images/telegram.svg')" class="socials__link">
+                  <span class="visually-hidden">посилання на телеграм</span>
+                </a>
+              </li>
+            </ul>
+          </address>
+          <form class="form" name="myForm">
+            <div class="form__top">
+              <label class="form__label">
+                Ваше ім’я
+                <input class="form__input" type="text" placeholder="Іван" name="name" required>
+              </label>
+              <label class="form__label">
+                Номер телефона
+                <input class="form__input" type="tel" placeholder="+380501111111" name="tel" required>
+              </label>
+            </div>
+            <label class="form__label form__label--area">
+              Ваше повідомлення
+              <textarea class="form__input form__input--area" placeholder="Текст вашого повідомлення" name="message"
+                required></textarea>
+            </label>
+            <button class="button button--adaptive" type="submit">
+              Надіслати
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <a class="logo" href="#home">
+      <img class="logo__image" src="images/logo.svg" alt="Логотип">
+    </a>
+  </footer>
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <script src="js/fancybox.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
